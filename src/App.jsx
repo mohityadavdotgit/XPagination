@@ -68,11 +68,11 @@ const App = () => {
       </table>
 
       <div className="pagination-controls">
-        <button onClick={handlePrev} disabled={currentPage === 1}>
+        <button onClick={handlePrev}>
           Previous
         </button>
         <span className="page-number">{currentPage}</span>
-        <button onClick={handleNext} disabled={currentPage === totalPages}>
+        <button onClick={handleNext}>
           Next
         </button>
       </div>
